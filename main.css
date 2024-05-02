@@ -1,0 +1,86 @@
+:root {
+  --font-body-family: Inter, sans-serif;
+  --font-heading-family: Poppins, sans-serif;
+}
+
+* {
+  margin: 3px;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--font-body-family);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading-family);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+ul + ul {
+  margin-top: 50px;
+}
+
+.methods-list {
+  list-style-type: none;
+}
+
+.wrapper {
+  padding: 1rem;
+}
+
+.details-label {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 0.25rem;
+  /* font-size: 0.8rem; */
+}
+
+.details-value {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.copy-button {
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: rgba(56, 67, 237, 1);
+  padding: 0.4rem 1rem;
+  color: white;
+  border: 0;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.copy-button:hover {
+  background-color: rgba(56, 67, 237, 0.8);
+}
+
+.link-button {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(56, 67, 237, 1);
+  padding: 0.4rem 1rem;
+  border: 0;
+  cursor: pointer;
+}
+
+.link-button:hover {
+  color: rgba(56, 67, 237, 0.8);
+}
+
+.link-inst {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(245, 45, 238, 0.8);
+  padding: 0.4rem 0, 5rem;
+  border: 0;
+  cursor: pointer;
+}
+
+.link-inst:hover {
+  color: rgba(56, 67, 237, 0.8);
+}
